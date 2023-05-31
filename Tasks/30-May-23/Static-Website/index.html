@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script src="scripts/index.js"></script>        
+        <link href="css/index.css" rel="stylesheet"/>
+        <link href="css/second.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">ABC Inc</div>
+            <div id="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Clients</li>
+                    <li>Products</li>
+                    <li>Reach us</li>
+                </ul>
+            </div>
+            <div id="logo-area" style="position:absolute;right:10px; padding-right: 0px;border: solid 0px black;">
+                <img src="images/logo-facebook.png" class="icon logo_icon">
+                <img src="images/logo-twitter.png" class="icon logo_icon">
+                <img src="images/logo-instagram.png" class="icon logo_icon">
+            </div>
+        </div>
+
+        <div id="slide-area">
+           <div>
+            <img src="images/uparrow.png" id="img-toggle" class="toggle-icon" onclick="toggle_slideshow()">
+           </div>
+            <div id="slide-show">                
+                <img src="images/one.jpg" id="img1" class="slide">
+                <img src="images/left_arrow.png" id="left_icon" class="icon" onclick="changeImage('left')">
+                <img src="images/right_arrow.png" id="right_icon" class="icon" onclick="changeImage('right')">
+            </div>
+        </div>
+
+        <div id="services-wrapper"></div>
+
+        <div id="footer">
+            &copy;All copyrights reserved, ABC Inc 2023.
+        </div>
+    </body>
+    <script src="scripts/data.js"></script>
+</html>
