@@ -1,0 +1,11 @@
+.header{
+    background-color: #fafbfc;
+}
+
+.header-logo
+{
+    width: 120px;
+    height: 50px;
+    transition: all 0.2s;
+    padding-left: 10px;
+}

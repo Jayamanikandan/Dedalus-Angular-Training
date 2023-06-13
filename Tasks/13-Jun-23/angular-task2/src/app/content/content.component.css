@@ -1,0 +1,9 @@
+.navigation{
+    height:80%;
+    background-color: rgb(184, 179, 179);
+}
+
+.navigation li{
+    padding: 2px 0px 2px 0px;
+    list-style: none;
+}
